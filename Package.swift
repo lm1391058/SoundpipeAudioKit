@@ -8,10 +8,10 @@ let package = Package(
     platforms: [.macOS(.v12), .iOS(.v13), .tvOS(.v13)],
     products: [.library(name: "SoundpipeAudioKit", targets: ["SoundpipeAudioKit"])],
     dependencies: [
-        .package(url: "https://github.com/AudioKit/KissFFT", from: "1.0.0"),
-        .package(url: "https://github.com/AudioKit/AudioKit", from: "5.6.0"),
-        .package(url: "https://github.com/AudioKit/AudioKitEX", from: "5.5.0"),
-        .package(url: "https://github.com/AudioKit/Tonic", from: "2.0.0"),
+        .package(url: "https://github.com/lm1391058/KissFFT", from: "1.0.0"),
+        .package(url: "https://github.com/lm1391058/AudioKit", from: "5.6.0"),
+        .package(url: "https://github.com/lm1391058/AudioKitEX", from: "5.5.0"),
+        .package(url: "https://github.com/lm1391058/Tonic", from: "2.0.0"),
     ],
     targets: [
         .target(name: "Soundpipe",
